@@ -1,0 +1,397 @@
+/* customiz cart as design */
+.checkouty {
+  padding: 80px 0 140px 0;
+}
+.breadcrumb {
+  margin-bottom: 60px;
+}
+.breadcrumb li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000 !important;
+}
+/* checkout css from ai */
+.billing_details h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #000;
+  margin-bottom: 40px;
+}
+.lab_styl {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  opacity: 40%;
+  margin-bottom: 8px;
+}
+.form_cusm {
+  background-color: #db4444;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  padding: 0 !important;
+  margin-right: 16px;
+}
+.form_cusm:focus {
+  background-color: #db4444;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+.form_cusm:active {
+  background-color: #db4444 !important;
+  filter: brightness(90%);
+}
+.form_cusm:checked {
+  background-color: #db4444;
+  border-color: #db4444;
+}
+.mod_lbl {
+  color: #000 !important;
+  opacity: 100%;
+  margin: 0 !important;
+}
+.form_check {
+  display: flex;
+  margin: 0 !important;
+  align-items: center;
+  margin: 0 !important;
+}
+/* order summery */
+.order_summary {
+  padding-right: 95px;
+}
+.mon_marg {
+  width: 65px !important;
+  margin-right: 20px;
+}
+.ord_prici {
+  display: flex;
+  margin-bottom: 32px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.cart_total img {
+  width: 50px;
+}
+.cart_total {
+  border: none;
+  padding: 32px 24px;
+  border-radius: 5px;
+  background: #fff;
+}
+.cart_total p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000 !important;
+  margin: 0;
+}
+
+/* payment  */
+.bank_chek {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 32px 0 !important;
+}
+.radi_inpt {
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  border: 1px solid #000 !important;
+  margin-right: 16px;
+}
+.radi_inpt:focus {
+  background-color: #000000 !important;
+  border-color: #000000;
+  outline: 0;
+  box-shadow: none;
+}
+.radi_inpt:active {
+  background-color: #000000;
+  filter: none;
+}
+.radi_inpt:checked {
+  background-color: #000000;
+  border-color: #000000;
+}
+.deliv_chek {
+  margin-bottom: 32px !important;
+}
+.spacin {
+  margin-left: 8px;
+}
+/* .radi_inpt:checked[type=radio] {
+  --bs-form-check-bg-image: url(../image/raninpt.png);
+  
+} */
+
+/* comonbtn */
+.coupon_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.copaninput {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: transparent !important;
+  color: #000;
+  opacity: 50%;
+  width: 300px;
+  padding: 16px 0 16px 24px;
+  margin-right: 16px;
+  border: 1px solid #000;
+}
+.copaninput:focus {
+  background-color: transparent !important;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.whish_btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background-color: transparent;
+  text-align: center;
+  margin: -16px 0;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0, 50%);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 48px;
+}
+.whish_btn:hover {
+  background-color: #e07575;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.cuscopsnbtn {
+  background-color: #db4444;
+  color: #fafafa;
+  border: 1px solid transparent;
+}
+.cuscopsnbtn:hover {
+  background-color: #e07575;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* cart start */
+  .checkouty {
+    padding: 60px 0 80px 0;
+  }
+  .breadcrumb {
+    margin-bottom: 35px;
+  }
+  .mon_marg {
+    margin-right: 5px;
+  }
+  .copaninput {
+    width: 100%;
+    margin-right: 4px;
+    margin-bottom: 30px;
+    padding: 10px 0 10px 10px;
+  }
+  .cuscopsnbtn {
+    width: 100%;
+    padding: 10px 12px;
+  }
+  .coupon_section {
+    margin-bottom: 47px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .order_summary {
+    padding-right: 0px;
+  }
+  .cart_total {
+    padding: 0 12px !important;
+  }
+  .ord_prici {
+    margin-bottom: 18px;
+  }
+  .bank_chek {
+    margin: 22px 0 !important;
+  }
+  .deliv_chek {
+    margin-bottom: 22px !important;
+  }
+  .spacin {
+    margin-left: 5px;
+  }
+  .chekinpu_styl {
+    width: 100%;
+    height: 45px;
+    padding: 0 0 0 17px;
+    margin-bottom: 18px;
+  }
+  .billing_details h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  .billing_details {
+    margin-bottom: 60px;
+  }
+  .radi_inpt {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  .bnklogo_img img {
+    width: 40px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* cart start */
+  .checkouty {
+    padding: 90px 0 90px 0;
+  }
+  .breadcrumb {
+    margin-bottom: 35px;
+  }
+  .mon_marg {
+    margin-right: 10px;
+  }
+  .copaninput {
+    width: 300px;
+    margin-right: 10px;
+  }
+  .cuscopsnbtn {
+    padding: 16px 48px;
+  }
+  .coupon_section {
+    margin-bottom: 32px;
+    justify-content: space-between;
+  }
+  .order_summary {
+    padding-right: 0px;
+  }
+  .cart_total {
+    padding: 0 12px !important;
+  }
+  .ord_prici {
+    margin-bottom: 18px;
+  }
+  .bank_chek {
+    margin: 22px 0 !important;
+  }
+  .deliv_chek {
+    margin-bottom: 22px !important;
+  }
+  .spacin {
+    margin-left: 5px;
+  }
+  .chekinpu_styl {
+    width: 100%;
+    height: 45px;
+    padding: 0 0 0 17px;
+    margin-bottom: 22px;
+  }
+  .billing_details h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  .billing_details {
+    margin-bottom: 50px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* cart start */
+  .checkouty {
+    padding: 90px 0 90px 0;
+  }
+  .breadcrumb {
+    margin-bottom: 45px;
+  }
+  .mon_marg {
+    margin-right: 10px;
+  }
+  .copaninput {
+    width: 199px;
+    padding: 13px 0 16px 20px;
+    margin-right: 8px;
+  }
+  .cuscopsnbtn {
+    padding: 16px 30px;
+  }
+  .cart_total {
+    padding: 25px 17px;
+  }
+  .order_summary {
+    padding-right: 0px;
+  }
+  .cart_total {
+    padding-right: 0 !important;
+  }
+  .whish_btn {
+    padding: 13px 13px;
+  }
+  .ord_prici {
+    margin-bottom: 18px;
+  }
+  .bank_chek {
+    margin: 22px 0 !important;
+  }
+  .deliv_chek {
+    margin-bottom: 22px !important;
+  }
+  .spacin {
+    margin-left: 5px;
+  }
+  .chekinpu_styl {
+    width: 337px;
+    height: 45px;
+    padding: 0 0 0 17px;
+    margin-bottom: 22px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* chejout start */
+  .breadcrumb {
+    margin-bottom: 45px;
+  }
+  .mon_marg {
+    margin-right: 10px;
+  }
+  .order_summary {
+    padding-right: 0px;
+  }
+  .cart_total {
+    padding-right: 0 !important;
+  }
+  .copaninput {
+    width: 265px;
+    padding: 16px 0 16px 20px;
+    margin-right: 8px;
+  }
+  .whish_btn {
+    padding: 16px 34px;
+  }
+}

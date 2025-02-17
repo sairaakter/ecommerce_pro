@@ -1,0 +1,92 @@
+/* delivery start */
+.delivery {
+  padding-bottom: 140px;
+}
+.firs_deliv {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.firs_deliv img {
+  width: 80px;
+  height: 80px;
+}
+.firs_deliv_con {
+  text-align: center;
+}
+.firs_deliv_con h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+.firs_deliv_con p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  margin: 0;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* delivery start */
+  .delivery {
+    padding-bottom: 65px;
+  }
+  .firs_deliv {
+    margin-bottom: 30px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* delivery start */
+  .delivery {
+    padding-bottom: 65px;
+  }
+  .firs_deliv {
+    margin-bottom: 30px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* delivery start */
+  .delivery {
+    padding-bottom: 90px;
+  }
+}
+
+/* toppppppp */
+.toppp {
+  padding-bottom: 30px;
+}
+.top-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+.back-to-top {
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.5s ease; /* Added smooth transform */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Button becomes visible when scrolled */
+body:has(:target) .back-to-top {
+  display: block;
+  opacity: 1;
+  transform: translateY(0); /* Smooth entrance */
+}
+
+/* Animation effect on click */
+.back-to-top:active {
+  transform: scale(0.9); /* Slight shrinking effect on click */
+}

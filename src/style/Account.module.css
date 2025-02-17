@@ -1,0 +1,235 @@
+/* customiz cart as design */
+.account {
+  padding: 80px 0 140px 0;
+}
+.breadcrumb {
+  margin-bottom: 60px;
+}
+.breadcrumb li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000 !important;
+}
+.bred_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.sidbar h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000 !important;
+  margin: 0;
+  /* margin-bottom: 16px; */
+}
+.sidbar ul {
+  margin: 16px 0 16px 0;
+}
+.sidbar ul li {
+  list-style-type: none;
+}
+.sidbar ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000 !important;
+  display: inline-block;
+  margin-bottom: 8px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.sidbar ul li a:hover {
+  color: #db4444 !important;
+}
+.sidbar ul li a:hover,
+.sidbar ul li a.active {
+  color: #db4444 !important;
+}
+.content {
+  padding: 40px 80px;
+}
+.content h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #db4444 !important;
+  margin-bottom: 16px;
+}
+.co_magn {
+  margin-bottom: 24px;
+}
+.c_labal {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000 !important;
+  margin-bottom: 8px;
+}
+.content_styl {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(0, 0, 0, 50%);
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 50px;
+  padding: 0 0 0 16px;
+  border-radius: 4px;
+}
+.content_styl:focus {
+  background-color: #f5f5f5 !important;
+  color: rgb(0, 0, 0, 50%);
+}
+input.content_styl::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(0, 0, 0, 50%);
+}
+.whish_btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0, 50%);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 48px;
+}
+.whish_btn:hover {
+  background-color: #e07575;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.cuscopsnbtn {
+  background-color: #db4444;
+  color: #fafafa;
+  border: 1px solid transparent;
+}
+.cuscopsnbtn:hover {
+  background-color: #e07575;
+}
+.cancel_parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+}
+.cancel_btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-right: 32px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.cancel_btn:hover {
+  cursor: pointer;
+  color: #7d8184;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* cart start */
+  .account {
+    padding: 60px 0 80px 0;
+  }
+  .breadcrumb {
+    margin-bottom: 35px;
+  }
+  .whish_btn {
+    padding: 14px 25px;
+  }
+  /* account start */
+
+  .content {
+    padding: 25px 0px;
+  }
+  .content_styl {
+    padding: 0 0 0 9px;
+  }
+  .cancel_btn {
+    margin-right: 20px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* cart start */
+  .account {
+    padding: 90px 0 90px 0;
+  }
+  .breadcrumb {
+    margin-bottom: 35px;
+  }
+  .whish_btn {
+    padding: 14px 25px;
+  }
+  /* account start */
+
+  .content {
+    padding: 25px 0px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* account start */
+  .account {
+    padding: 90px 0 90px 0;
+  }
+  .breadcrumb {
+    margin-bottom: 45px;
+  }
+  .cuscopsnbtn {
+    padding: 16px 30px;
+  }
+  .whish_btn {
+    padding: 14px 25px;
+  }
+  /* acount */
+  .content {
+    padding: 20px 30px 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* acount */
+  .content {
+    padding: 20px 55px 0;
+  }
+  /* chejout start */
+  .breadcrumb {
+    margin-bottom: 45px;
+  }
+  .whish_btn {
+    padding: 16px 34px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* account start */
+  .content {
+    padding: 40px 55px;
+  }
+}

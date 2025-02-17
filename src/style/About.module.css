@@ -1,0 +1,530 @@
+/* customiz about as design */
+
+/* 🔥 Increase specificity by targeting both the module class and the default class */
+:global(.react-multi-carousel-dot-list) {
+  display: flex !important;
+  justify-content: center !important;
+  padding: 0 !important;
+}
+
+/* 🔥 Ensure dot styles are applied correctly */
+:global(.react-multi-carousel-dot button) {
+  width: 12px;
+  height: 12px;
+  border-radius: 90%;
+  margin-right: 6px !important;
+  margin-left: 6px !important;
+  background-color: rgba(0, 0, 0, 30%);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none !important;
+  box-shadow: 0 0 0 2px transparent !important; /* Simulated border */
+}
+
+:global(.react-multi-carousel-dot--active button) {
+  /* width: 10px !important;
+  height: 10px !important; */
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3) !important; /* Simulated border */
+  background-color: red !important;
+  opacity: 1;
+  border: none !important;
+
+  /* box-shadow: none !important; */
+}
+
+.cm_card {
+  border: none !important;
+  padding: 0 !important;
+}
+.about {
+  padding: 80px 0 140px 0;
+}
+.breadcrumb {
+  margin-bottom: 40px;
+}
+.breadcrumb li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000 !important;
+}
+.bred_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+/* **** */
+.abo_con {
+}
+.a_left {
+  display: flex;
+  width: 525px;
+  /* margin: 0 75px 0 168.5px; */
+  flex-direction: column;
+  justify-content: center;
+}
+.a_left h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.a_left p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  margin: 0;
+}
+.a_gatar {
+  margin-top: 24px !important;
+}
+
+.container_cus {
+}
+
+/* anual start */
+.annual {
+  padding-bottom: 140px;
+}
+.custom-card {
+  border: none;
+}
+.image_container {
+  position: relative;
+  overflow: hidden;
+}
+.image_container:hover .hover-items {
+  cursor: pointer;
+  opacity: 1;
+}
+.catag_contan {
+  display: flex;
+  width: 100%;
+  height: 230px;
+  border: 1px solid rgb(0, 0, 0, 30%);
+  border-radius: 4px;
+}
+.catag_contan:hover {
+  border: 1px solid #db4444;
+  cursor: pointer;
+}
+.catag_contan:hover .cag_item {
+  background-color: #db4444;
+  box-shadow: 0 9px 13px 0 rgba(0, 0, 0, 5%);
+}
+.catag_contan:hover .cag_item img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0)
+    hue-rotate(0deg) brightness(1);
+}
+.catag_contan:hover .cag_item p {
+  color: #fafafa;
+}
+
+.cag_item {
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.cag_item h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #000000;
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+.cag_item p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+}
+.color_change {
+  width: 80px;
+  height: 80px;
+}
+.catag_contan:hover .cag_item {
+  background-color: #db4444;
+  box-shadow: 0 9px 13px 0 rgba(0, 0, 0, 5%);
+}
+.catag_contan:hover .color_change path {
+  stroke: #000000; /* Change stroke color on hover */
+}
+.catag_contan:hover .second path {
+  stroke: #000000; /* Change stroke color on hover */
+  fill: #000000;
+}
+.catag_contan:hover .color_change circle {
+  fill: #ffffff; /* Change stroke color on hover */
+  stroke: #ffffff;
+}
+.catag_contan:hover .color_change path[opacity="0.3"] {
+  fill: #ffffff; /* Change stroke color on hover */
+  stroke: #ffffff;
+}
+.catag_contan:hover .cag_item h2 {
+  color: #fafafa;
+}
+.catag_contan:hover .cag_item p {
+  color: #fafafa;
+}
+
+/* developer setion start */
+.developer {
+  padding-bottom: 140px;
+}
+.d_card {
+  margin-bottom: 40px;
+  padding: 0 12px;
+}
+.d_card img {
+  width: 100%;
+}
+.d_card h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #000000;
+  margin: 32px 0 0 0;
+}
+.d_card p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  margin: 8px 0 16px 0;
+}
+.d_icons {
+}
+.d_icons a {
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+/* carosal gol indicators start */
+.carousel-indicators {
+  position: relative;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  align-items: center;
+}
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 90%;
+  margin-right: 6px;
+  margin-left: 6px;
+  background-color: rgba(0, 0, 0, 30%);
+}
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  border: 2px solid rgba(0, 0, 0, 30%) !important;
+  background-color: red;
+  opacity: 1;
+}
+/* carosal gol indicators end */
+
+/* delivery start */
+.delivery {
+  padding-bottom: 140px;
+}
+.firs_deliv {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.firs_deliv img {
+  width: 80px;
+  height: 80px;
+}
+.firs_deliv_con {
+  text-align: center;
+}
+.firs_deliv_con h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+.firs_deliv_con p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  margin: 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* about start */
+  .breadcrumb {
+    margin-bottom: 35px;
+  }
+  .about {
+    padding: 50px 0 60px 0;
+  }
+  .a_left h1 {
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+  .a_gatar {
+    margin-top: 15px !important;
+  }
+  .a_left {
+    margin-bottom: 25px;
+  }
+  /* anuaal start */
+  .annual {
+    padding-bottom: 60px;
+  }
+  .catag_contan {
+    width: 100%;
+    height: 188px;
+    margin-bottom: 20px;
+  }
+  .color_change {
+    width: 56px !important;
+  }
+  .cag_item h2 {
+    font-size: 28px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .cag_item p {
+    text-align: center;
+  }
+  .cag_item {
+    padding: 13px;
+  }
+  /* developer start */
+  .developer {
+    padding-bottom: 55px;
+  }
+  .d_card {
+    margin-bottom: 30px;
+    padding: 0 12px !important;
+  }
+  .d_card h5 {
+    font-size: 30px;
+    margin: 18px 0 0 0;
+    letter-spacing: 2px;
+  }
+
+  .d_card p {
+    margin: 10px 0 12px 0;
+  }
+  .d_icons a {
+    margin-right: 8px !important;
+  }
+  /* delivery start */
+  .delivery {
+    padding-bottom: 65px;
+  }
+  .firs_deliv {
+    margin-bottom: 30px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* about start */
+  .about {
+    padding: 65px 0 65px 0;
+  }
+  .erfor_marg {
+    margin-bottom: 30px;
+  }
+  .a_left h1 {
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+  .a_gatar {
+    margin-top: 15px !important;
+  }
+  .a_left {
+    margin-bottom: 25px;
+  }
+  /* anuaal start */
+  .annual {
+    padding-bottom: 65px;
+  }
+  .catag_contan {
+    width: 100%;
+    height: 188px;
+    margin-bottom: 20px;
+  }
+  .color_change {
+    width: 28%;
+  }
+  .cag_item h2 {
+    font-size: 28px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+  }
+  .cag_item p {
+    text-align: center;
+  }
+  .cag_item {
+    padding: 10px;
+  }
+  /* developer start */
+  .developer {
+    padding-bottom: 55px;
+  }
+  .d_card {
+    /* margin-bottom: 20px; */
+  }
+  .d_card h5 {
+    font-size: 23px;
+    margin: 11px 0 0 0;
+    letter-spacing: 1px;
+  }
+
+  .d_card p {
+    margin: 6px 0 8px 0;
+  }
+  .d_icons a {
+    margin-right: 15px !important;
+  }
+  /* delivery start */
+  .delivery {
+    padding-bottom: 65px;
+  }
+  .firs_deliv {
+    margin-bottom: 30px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* about start */
+  .breadcrumb {
+    margin-bottom: 40px;
+  }
+
+  .about {
+    padding: 80px 0 75px 0;
+  }
+  .a_left h1 {
+    font-size: 45px;
+    line-height: 49px;
+    margin-bottom: 30px;
+  }
+  .a_gatar {
+    margin-top: 18px !important;
+  }
+  .a_left {
+    margin-bottom: 30px;
+  }
+  /* anuaal start */
+  .annual {
+    padding-bottom: 75px;
+  }
+  .catag_contan {
+    width: 100%;
+    height: 188px;
+  }
+  .color_change {
+    width: 41%;
+  }
+  .cag_item h2 {
+    font-size: 28px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+  }
+  .cag_item p {
+    text-align: center;
+  }
+  .cag_item {
+    padding: 10px;
+  }
+
+  /* developer start */
+  .developer {
+    padding-bottom: 70px;
+  }
+  .d_card {
+    margin-bottom: 25px;
+  }
+  .d_card h5 {
+    font-size: 26px;
+    margin: 20px 0 0 0;
+  }
+  .d_card p {
+    margin: 8px 0 12px 0;
+  }
+  .d_icons a {
+    margin-right: 12px !important;
+  }
+  /* delivery start */
+  .delivery {
+    padding-bottom: 90px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* about start */
+  .breadcrumb {
+    margin-bottom: 40px;
+  }
+  .about {
+    padding: 80px 0 75px 0;
+  }
+
+  /* anuaal start */
+  .annual {
+    padding-bottom: 75px;
+  }
+  .catag_contan {
+    width: 100%;
+    height: 210px;
+  }
+  /* developer start */
+  .developer {
+    padding-bottom: 75px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+  /* anual start */
+  .color_change {
+    width: 56px !important;
+  }
+}

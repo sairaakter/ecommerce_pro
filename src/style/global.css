@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+  src: url(../fonts/Poppins/Poppins-Medium.ttf);
+  src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../fonts/inter/Inter-Bold.otf);
+  src: url(../fonts/inter/Inter-Medium.otf);
+  src: url(../fonts/inter/Inter-Regular.otf);
+  src: url(../fonts/inter/Inter-SemiBold.otf);
+}
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.empty_styl {
+  font-size: 35px;
+  display: flex;
+  font-weight: 600;
+  margin: 140px 0;
+  justify-content: center;
+  align-items: center;
+}

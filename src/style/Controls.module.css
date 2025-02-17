@@ -1,0 +1,125 @@
+.controls {
+  margin-top: 20px;
+}
+.t_control {
+  text-align: right;
+  position: relative;
+  bottom: -40%;
+}
+
+.React_courasall {
+  position: absolute !important;
+  top: -27%;
+  right: 0;
+  display: inline;
+  z-index: 1;
+}
+.left {
+  margin-right: 10px;
+}
+.t_custyle {
+  width: 46px;
+  height: 46px;
+  border-radius: 60px;
+  align-content: center;
+  background-color: #f5f5f5;
+  border: none;
+  transition: 1s;
+}
+.t_custyle:hover {
+  background-color: #000000 !important;
+}
+.t_custyle:hover .imgcolochang {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0)
+    hue-rotate(0deg) brightness(1); /* Change icon color to white */
+}
+.imgcolochang {
+  filter: brightness(0) saturate(100%) invert(0) sepia(0) saturate(0)
+    hue-rotate(0deg) brightness(1); /* Default black color */
+}
+.favrat:hover .imgcolochang {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0)
+    hue-rotate(0deg) brightness(1); /* Change icon color to white */
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .t_control {
+    margin-top: 0 !important;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .t_custyle {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .left {
+    margin-right: 0px !important;
+  }
+  .imgcolochang {
+    width: 16px;
+    height: 16px;
+  }
+  .React_courasall {
+    top: -17%;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .t_control {
+    margin-top: 0;
+  }
+  .imgcolochang {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .React_courasall {
+    top: -37%;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .React_courasall {
+    top: -32%;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .React_courasall {
+    top: -33%;
+  }
+}
+@media (min-width: 400px) and (max-width: 575px) {
+  .t_control {
+    margin-top: 0 !important;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .t_custyle {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .left {
+    margin-right: 0px !important;
+  }
+  .imgcolochang {
+    width: 20px;
+    height: 20px;
+  }
+  .React_courasall {
+    top: -27%;
+  }
+}

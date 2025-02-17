@@ -1,0 +1,268 @@
+/* customiz cart as design */
+.contactt {
+  padding: 80px 0 140px 0;
+}
+.breadcrumb {
+  margin-bottom: 60px;
+}
+.breadcrumb li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000 !important;
+}
+.bred_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+/* conant left */
+.main_contac {
+  width: 300px;
+  padding: 40px 28px 0;
+}
+.contac_left {
+}
+.contac_left p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000 !important;
+  margin: 16px 0 0 0;
+  text-decoration: none;
+}
+.contac_left a {
+  color: #000;
+  text-decoration: none;
+}
+.contac_left a:hover {
+  text-decoration: underline;
+}
+.call {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+.call img {
+  margin-right: 16px;
+}
+.call p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000 !important;
+  margin: 0;
+}
+.rul_marg {
+  margin: 32px 0;
+  color: #000 !important;
+  opacity: 100%;
+}
+
+.content {
+  padding: 32px 40px;
+}
+.co_magn {
+  margin-bottom: 32px;
+}
+
+.content_styl {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(0, 0, 0, 50%);
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 50px;
+  padding: 0 0 0 16px;
+  border-radius: 4px;
+}
+.content_styl:focus {
+  background-color: #f5f5f5 !important;
+  color: rgb(0, 0, 0, 50%);
+}
+input.content_styl::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(0, 0, 0, 50%);
+}
+.texareaa {
+  width: 100%;
+  height: 200px !important;
+  padding: 13px 0 0 16px !important;
+  border: none;
+  outline: none;
+  margin-bottom: 32px;
+}
+.texareaa:focus-visible {
+  outline: none;
+  border: none;
+  outline-offset: 0px;
+}
+
+.cancel_parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+}
+
+.whish_btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0, 50%);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 48px;
+}
+.whish_btn:hover {
+  background-color: #e07575;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.cuscopsnbtn {
+  background-color: #db4444;
+  color: #fafafa;
+  border: 1px solid transparent;
+}
+.cuscopsnbtn:hover {
+  background-color: #e07575;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* cart start */
+  .contactt {
+    padding: 60px 0 80px 0;
+  }
+  .breadcrumb {
+    margin-bottom: 35px;
+  }
+  .whish_btn {
+    padding: 14px 25px;
+  }
+  /* account start */
+
+  .content_styl {
+    padding: 0 0 0 9px;
+    margin-bottom: 15px;
+  }
+
+  .main_contac {
+    width: 243px;
+    padding: 40px 0px;
+  }
+  .content {
+    padding: 0px 0px;
+  }
+  .texareaa {
+    margin-bottom: 15px;
+    padding-left: 9px !important;
+  }
+  .co_magn {
+    margin-bottom: 0px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* cart start */
+  .contactt {
+    padding: 90px 0 90px 0;
+  }
+  .breadcrumb {
+    margin-bottom: 35px;
+  }
+  .whish_btn {
+    padding: 14px 25px;
+  }
+  /* account start */
+  .main_contac {
+    width: 243px;
+    padding: 40px 0px;
+  }
+  .content {
+    padding: 0px 0px;
+  }
+  .texareaa {
+    margin-bottom: 25px;
+  }
+  .co_magn {
+    margin-bottom: 25px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* account start */
+  .contactt {
+    padding: 90px 0 90px 0;
+  }
+  .breadcrumb {
+    margin-bottom: 45px;
+  }
+  .cuscopsnbtn {
+    padding: 16px 30px;
+  }
+  .whish_btn {
+    padding: 14px 25px;
+  }
+  /* acount */
+  .content {
+    padding: 20px 20px 0 20px;
+  }
+  .main_contac {
+    width: 251px;
+    padding: 20px 20px 0;
+  }
+  .texareaa {
+    margin-bottom: 25px;
+  }
+  .co_magn {
+    margin-bottom: 25px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* acount */
+  .content {
+    padding: 20px 20px 0 55px;
+  }
+  .main_contac {
+    width: 277px;
+    padding: 20px 20px 0;
+  }
+  /* chejout start */
+  .breadcrumb {
+    margin-bottom: 45px;
+  }
+  .whish_btn {
+    padding: 16px 34px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* account start */
+  .content {
+    padding: 40px 55px;
+  }
+}

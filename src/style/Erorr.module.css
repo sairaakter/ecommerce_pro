@@ -1,0 +1,190 @@
+/* customiz cart as design */
+.erorr {
+  padding: 80px 0 140px 0;
+}
+.breadcrumb {
+  margin-bottom: 60px;
+}
+.breadcrumb li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000 !important;
+}
+.bred_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.cancel_parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.whish_btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0, 50%);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 48px;
+}
+.whish_btn:hover {
+  background-color: #e07575;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.cuscopsnbtn {
+  background-color: #db4444;
+  color: #fafafa;
+  border: 1px solid transparent;
+}
+.cuscopsnbtn:hover {
+  background-color: #e07575;
+}
+.eror_con {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.eror_con h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 110px;
+  line-height: 115px;
+  letter-spacing: 2px;
+  color: #000;
+  margin-bottom: 40px;
+}
+.eror_con p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 80px;
+}
+.erfor_marg {
+  margin-bottom: 140px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* cart start */
+  .contactt {
+    padding: 60px 0 80px 0;
+  }
+  .breadcrumb {
+    margin-bottom: 35px;
+  }
+  .whish_btn {
+    padding: 14px 25px;
+  }
+  .erorr {
+    padding: 50px 0 60px 0;
+  }
+  .erfor_marg {
+    margin-bottom: 30px;
+  }
+  .eror_con p {
+    margin-bottom: 36px;
+  }
+  .eror_con h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 73px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* cart start */
+  .breadcrumb {
+    margin-bottom: 35px;
+  }
+  .whish_btn {
+    padding: 14px 25px;
+  }
+  .erorr {
+    padding: 65px 0 65px 0;
+  }
+  .erfor_marg {
+    margin-bottom: 30px;
+  }
+  .eror_con p {
+    margin-bottom: 45px;
+  }
+  .eror_con h1 {
+    font-size: 63px;
+    margin-bottom: 24px;
+    line-height: 85px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* account start */
+  .breadcrumb {
+    margin-bottom: 45px;
+  }
+  .cuscopsnbtn {
+    padding: 16px 30px;
+  }
+  .whish_btn {
+    padding: 14px 25px;
+  }
+
+  .erorr {
+    padding: 80px 0 75px 0;
+  }
+  .erfor_marg {
+    margin-bottom: 60px;
+  }
+  .eror_con p {
+    margin-bottom: 50px;
+  }
+  .eror_con h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* chejout start */
+  .breadcrumb {
+    margin-bottom: 45px;
+  }
+  .erorr {
+    padding: 80px 0 75px 0;
+  }
+  .erfor_marg {
+    margin-bottom: 75px;
+  }
+  .eror_con p {
+    margin-bottom: 60px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* account start */
+  .content {
+    padding: 40px 55px;
+  }
+}

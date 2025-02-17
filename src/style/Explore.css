@@ -1,0 +1,89 @@
+/* explore start */
+.explore {
+  padding-bottom: 80px;
+}
+
+.me_rght {
+  margin-right: 8px !important;
+}
+.exp_btn {
+  width: 51px !important;
+  background-color: #00ff66 !important;
+}
+.flex {
+  display: flex;
+}
+.ex_marg {
+  margin-bottom: 60px !important;
+}
+.expl-como-btn {
+  border: none !important;
+}
+/*  ///////////////color picker strt */
+.custom-color-picker {
+  display: flex;
+  margin-top: 8px;
+}
+input[type="color"] {
+  -webkit-appearance: none;
+  border: 2px solid #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
+
+.color-preview {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #db4444;
+}
+
+/* ///////////////color picker end */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* explore start */
+  .explore {
+    padding-bottom: 48px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  input[type="color"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+  }
+  .color-preview {
+    width: 18px;
+    height: 18px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* explore start */
+  .explore {
+    padding-bottom: 48px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* explore start */
+  .explore {
+    padding-bottom: 48px;
+  }
+}
